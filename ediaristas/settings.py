@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'administracao',
+    'django_adminlte',
 ]
 
 MIDDLEWARE = [
@@ -77,11 +78,11 @@ WSGI_APPLICATION = 'ediaristas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
+        'HOST': '0.0.0.0',
         'PORT': '3306',
         'NAME': 'ediaristas',
         'USER': 'root',
-        'PASSWORD': '@Yamato123',        
+        'PASSWORD': 'my-secret-pw',        
     }
 }
 
