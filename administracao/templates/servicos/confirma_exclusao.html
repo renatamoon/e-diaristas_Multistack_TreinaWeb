@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+EXCLUSÃO DE SERVIÇOS
+{% endblock title %}
+
+{% block content %}
+
+    <h3 class="box-title" ><font color="red"><b>TEM CERTEZA QUE DESEJA REMOVER O SERVIÇO A SEGUIR?</b></font></h3>
+    <hr>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form_servico.as_p }}
+        <td>
+        <button class="btn btn-danger" type="submit"> EXCLUIR</button>  </td>        
+        <td>
+        <a href="{% url 'listar_servico' %}" class="btn btn-info">VOLTAR</a></td>             
+    </form>     
+
+{% endblock content %}

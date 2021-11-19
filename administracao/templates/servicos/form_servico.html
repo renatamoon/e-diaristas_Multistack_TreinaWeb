@@ -4,10 +4,14 @@
 CADASTRO DE SERVIÇOS
 {% endblock title %}
 
-{% block content %}    
+{% block content %}        
+    <h3 class="card-title"> <strong>CADASTRO/EDIÇÃO DE SERVIÇOS </strong></h3>
+    <hr>   
+
     <form method="POST">
         {% csrf_token %}
         {{ form_servico.as_p }}
-        <button class="btn btn-primary" type="submit"> CADASTRAR</button>
+        <br>
+        <button class="btn btn-primary" type="submit"> SALVAR</button>
     </form>    
 {% endblock content %}
