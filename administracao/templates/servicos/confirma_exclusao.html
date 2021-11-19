@@ -7,8 +7,9 @@ EXCLUSÃO DE SERVIÇOS
 {% block content %}
 
     <h3 class="box-title" ><font color="red"><b>TEM CERTEZA QUE DESEJA REMOVER O SERVIÇO A SEGUIR?</b></font></h3>
-    <hr>
+    <br>
     <form method="POST">
+        <br>
         {% csrf_token %}
         {{ form_servico.as_p }}
         <td>
