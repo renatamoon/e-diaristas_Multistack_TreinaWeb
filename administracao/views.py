@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .forms import ServicoForm
+from .models import Servico
 
 # Create your views here.
 
@@ -13,3 +14,7 @@ def cadastrar_servico(request):
         #se o metodo nao for post, significa que estamos apenas abrindo a nossa pagina
         form_servico = ServicoForm()
     return render(request, 'servicos/form_servico.html', {"form_servico": form_servico})
+
+def listar_servicos(request):
+    servicos = Servico.objects.all() #fazendo uma consulta de todos os serviços e salvando na variavel servicos
+    return render(request, 'servicos/lista_servicos.html', {'servicos': servicos})
