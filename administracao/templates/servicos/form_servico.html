@@ -1,20 +1,23 @@
 
 {% extends 'base.html' %}
+{% load bootstrap4 %}
 {% block title %}
 CADASTRO DE SERVIÇOS
 {% endblock title %}
 
-{% block content %}      
-        
-    <h2 class="card-title"> <strong>CADASTRO/EDIÇÃO DE SERVIÇOS </strong></h2>    
-    <br>
-      
-
-    <form method="POST">
-        <br>
-        {% csrf_token %}
-        {{ form_servico.as_p }}
-        <br>
-        <button class="btn btn-info" type="submit"> SALVAR</button>
-    </form>    
+{% block content %}                
+<div class="card card-primary"> 
+    <div class="card-header">
+        <div class="card-title"><b>CADASTRO DE SERVIÇOS</b></div>        
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            <br>
+            {% csrf_token %}
+            {% bootstrap_form form_servico %}
+            <br>
+            <button class="btn btn-info" type="submit">SALVAR</button>
+        </form> 
+    </div>
+</div>   
 {% endblock content %}
