@@ -12,7 +12,7 @@
 ## <a id="projeto"> 💻 SOBRE ESTE PROJETO </a>
 
 > 🟩 Status do projeto: EM ANDAMENTO ... <br>
-> 🟥 <b>AINDA NÃO EXECUTÁVEL ...</b>
+> 🟥 <b>EXECUTÁVEL APENAS A PARTE DE ADMINISTRAÇÃO DO DJANGO ...</b>
 
 
 Desenvolvimento progressivo do projeto de uma plataforma chamada E-diaristas que ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, listar e visualizar todos os dados da aplicação. 
