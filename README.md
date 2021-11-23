@@ -17,7 +17,7 @@ Desenvolvido durante o evento "Semana Multi Stack", promovido pela [Treina Web](
   
   ## <a id="tecnologias"> 🧪 Tecnologias </a>
 
-Tecnologias usadas neste projeto de E-diaristas:
+Tecnologias que serão usadas neste projeto de E-diaristas:
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)
