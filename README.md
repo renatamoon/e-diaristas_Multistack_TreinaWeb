@@ -53,8 +53,17 @@ Desenvolvimento da parte de Administração:
  <hr> 
   
 *Alterar as configurações do DB no arquivo <b>`settings.py`</b> <br>
-  
-  ![image](https://user-images.githubusercontent.com/87100340/143046209-e27fb08f-3d32-4e28-99e7-aeb4e829e64e.png)
+
+  DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'localhost',
+        'PORT': 'port',
+        'NAME': 'ediaristas',
+        'USER': 'user',
+        'PASSWORD': 'password'    
+    }
+}
 
  -Migre o banco de dados com: `python manage.py migrate` <br>
  -Execute o servidor: `python manage.py runserver` <br>
