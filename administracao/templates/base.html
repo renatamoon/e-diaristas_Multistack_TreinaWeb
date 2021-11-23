@@ -16,9 +16,30 @@
     <main class="container">
 {% block content %}
 
+
 {% endblock content %}
 
-    </main>    
+    </main>  
+
+{% block javascript %}
+
+{{block.super}}
+<!-- aqui pegamos um cdn do jquery masks para adicionar no nosso arqvivo base fora da Main, 
+para não sobrescrever o adminlte - esse codigo tem como intuito adicionar mascaras de formatação
+em cpf, ceps, valores (reais) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.11.2/jquery.mask.min.js" 
+integrity="sha512-Y/GIYsd+LaQm6bGysIClyez2HGCIN1yrs94wUrHoRAD5RSURkqqVQEU6mM51O90hqS80ABFTGtiDpSXd2O05nw=="
+ crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!-- o codigo dentro do script abaixo estamos usando a função apra dizer que vamos
+formatar apenas as masks como money e conforme 000,00 como foi estipulado no models (Decimal field) -->
+<script>
+    
+    $(document).ready(function() {
+        $('.money'),mask('000,00', {reverse: true});
+    })
+
+</script>
+{% endblock javascript%}
 
 </body>
 </html>
