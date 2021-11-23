@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block title %}
+LISTA DE USUÁRIOS
+{% endblock title %}
+{% block content %}
+
+<div class="card">
+    <div class="card-header">
+        <h2 class="card-title"><b>LISTA DE USUÁRIOS</b></h2>        
+    </div>
+    <br>
+<br>    
+    <div class="card-body p-0">
+        <table class="table table-condensed">
+            <thead>
+                <tr>
+                    <th><b>USERNAME </b></td>  
+                    <th><b>AÇÕES </b></td>                      
+                </tr>
+            </thead>
+            <tbody>
+                {% for usuario in usuarios %}
+                    <tr>
+                        <td>{{usuario.username}}</td>                       
+                        <td>
+                            <a href="#">Editar</a>
+                            <a href="#">|</a>
+                            <a href="#">Remover</a>
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<br>
+
+<a href="{%url 'cadastrar_usuario' %}" class="btn btn-warning"><b>CADASTRAR</b></a><br>
+<br>
+<h6 class="card-title" style="color:red"><i>* Clique em CADASTRAR para cadastrar mais usuários na base de dados.</i></h6><br> 
+<br>    
+
+
+
+{% endblock content %}
