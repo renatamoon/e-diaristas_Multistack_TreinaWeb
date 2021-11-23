@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- aqui estamos renderizando o formulário de cadastro de usuário atraves das views de usuario_forms--> –>
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form_usuario.as_p}}
+    <input type="submit" class="btn btn-primary" value="Salvar"> <br>
+    <br>
+</form>
+
+{% endblock content %}
