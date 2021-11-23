@@ -1,5 +1,5 @@
 # e-diaristas_Multistack_TreinaWeb
-E-CLEANER PLATFORM
+<i>E-CLEANER PLATFORM</i>
 
 <p align="center">
   <a href="#projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
