@@ -31,6 +31,8 @@ Desenvolvimento da parte de Administração:
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
+<hr>
+
 ## <a id="instalacao"> 🔴 Como executar a aplicação: </a> 
 
 *No Windows:
