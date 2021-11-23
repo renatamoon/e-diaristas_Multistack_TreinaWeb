@@ -13,7 +13,7 @@
 > 🟥 <b>AINDA NÃO EXECUTÁVEL ...</b>
 
 
-Desenvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
+Desenvolvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
 
 <hr>
   
