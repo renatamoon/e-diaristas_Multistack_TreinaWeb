@@ -38,26 +38,26 @@ Desenvolvimento da parte de Administração:
 *No Windows:
 
 <b>-Baixe o repositório <br>
-<b>-Criando virtual environment:</b> python -m venv venv<br>
-<b>-Ativando o virtual environment: </b>. venv\Scripts\Activate.ps1<br>
-<b>Obs: Caso ocorra um erro na ativação:</b> entre no powershell e digite o seguinte comando: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned<br>
-<b>-Execução do arquivo requirements: </b>pip install -r requirements.txt<br>
+<b>-Criando virtual environment:</b> `python -m venv venv`<br>
+<b>-Ativando o virtual environment: </b>`. venv\Scripts\Activate.ps1`<br>
+<b>Obs: Caso ocorra um erro na ativação:</b> entre no powershell e digite o seguinte comando: `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`<br>
+<b>-Execução do arquivo requirements: </b>`pip install -r requirements.txt`<br>
 
 *No Linux:
 
 <b>-Baixe o repositorio<br>
-<b>-Criando virtual environment:</b> virtualenv venv<br>
-<b>-Ativando o virtual environment:</b> . venv/bin/activate<br>
-<b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
+<b>-Criando virtual environment:</b> `virtualenv venv`<br>
+<b>-Ativando o virtual environment:</b> `. venv/bin/activate`<br>
+<b>-Execução do arquivo requirements e instalar dependencias:</b> `pip install -r requirements.txt`<br>
   
  <hr> 
   
-*Alterar as configurações do DB no arquivo <b>settings.py</b> <br>
+*Alterar as configurações do DB no arquivo <b>`settings.py`</b> <br>
   
   ![image](https://user-images.githubusercontent.com/87100340/143046209-e27fb08f-3d32-4e28-99e7-aeb4e829e64e.png)
 
- -Migre o banco de dados com: python manage.py migrate <br>
- -Execute o servidor: python manage.py runserver <br>
+ -Migre o banco de dados com: `python manage.py migrate` <br>
+ -Execute o servidor: `python manage.py runserver` <br>
   
 <hr>
 
