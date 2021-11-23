@@ -12,6 +12,7 @@
 Desenvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
 
 > 🟩 Status do projeto: EM ANDAMENTO ...
+> 🟥 AINDA NÃO EXECUTÁVEL ...
 
 <hr>
   
@@ -48,6 +49,8 @@ Desenvolvimento da parte de Administração:
 <b>-Criando virtual environment:</b> virtualenv venv<br>
 <b>-Ativando o virtual environment:</b> . venv/bin/activate<br>
 <b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
+  
+ <hr> 
   
 *Alterar as configurações do DB no arquivo <b>settings.py</b> <br>
   
