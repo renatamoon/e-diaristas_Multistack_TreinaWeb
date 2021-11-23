@@ -1,21 +1,24 @@
 {% extends 'base.html' %}
 
+{% load bootstrap4 %}
 {% block title %}
 EXCLUSÃO DE SERVIÇOS
 {% endblock title %}
 
 {% block content %}
-
-    <h3 class="box-title" ><font color="red"><b>TEM CERTEZA QUE DESEJA REMOVER O SERVIÇO A SEGUIR?</b></font></h3>
+<div class="card card-primary"> 
+    <div class="card-header">
+        <div class="card-title"><b>TEM CERTEZA QUE DESEJA REMOVER O SERVIÇO A SEGUIR?</b></div>        
+    </div>    
     <br>
     <form method="POST">
         <br>
         {% csrf_token %}
-        {{ form_servico.as_p }}
+        {% bootstrap_form form_servico %}
         <td>
         <button class="btn btn-danger" type="submit"> EXCLUIR</button>  </td>        
         <td>
         <a href="{% url 'listar_servico' %}" class="btn btn-info">VOLTAR</a></td>             
     </form>     
-
+</div>
 {% endblock content %}

@@ -4,8 +4,8 @@ LISTA DE SERVIÇOS
 {% endblock title %}
 {% block content %}
 
-<div class="card-reader">
-    <h1 class="card-title"> <strong>LISTA DE SERVIÇOS </strong></h1>       
+<div class="card-header">
+    <div class="card-title"><b>CADASTRO DE SERVIÇOS</b></div>        
 </div>
 <br>
 <br>
@@ -37,5 +37,6 @@ LISTA DE SERVIÇOS
         </table>
     </div>
 </div>
-<a href="{%url 'cadastrar_servico' %}" class="btn btn-info">CADASTRAR</a>
+<a href="{%url 'cadastrar_servico' %}" class="btn btn-info">CADASTRAR</a><br>
+<br>
 {% endblock content %}

@@ -9,10 +9,11 @@
 
 ## <a id="projeto"> 💻 Sobre este projeto </a>
 
-Desenvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
+> 🟩 Status do projeto: EM ANDAMENTO ... <br>
+> 🟥 <b>AINDA NÃO EXECUTÁVEL ...</b>
 
-> 🟩 Status do projeto: EM ANDAMENTO ...
-> 🟥 AINDA NÃO EXECUTÁVEL ...
+
+Desenvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
 
 <hr>
   
@@ -52,9 +53,20 @@ Desenvolvimento da parte de Administração:
   
  <hr> 
   
-*Alterar as configurações do DB no arquivo <b>`settings.py`</b> <br>
+*Alterar as configurações do DataBase no arquivo <b>`settings.py`</b> <br>
 
-![image](https://user-images.githubusercontent.com/87100340/143048109-2822bb0a-f6e2-46aa-ae85-d643fdffcea7.png)
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'host_bd',
+        'PORT': 'porta_bd',
+        'NAME': 'ediaristas',
+        'USER': 'usuario_bd',
+        'PASSWORD': 'senha_bd'    
+    }
+}
+```
 
  -Migre o banco de dados com: `python manage.py migrate` <br>
  -Execute o servidor: `python manage.py runserver` <br>
