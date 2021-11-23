@@ -49,7 +49,7 @@ Desenvolvimento da parte de Administração:
 <b>-Ativando o virtual environment:</b> . venv/bin/activate<br>
 <b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
   
-*Alterar as configurações do DB no arquivo .. mdinclude:: ../../settings.py
+*Alterar as configurações do DB no arquivo <b>settings.py</b> <br>
   
   ![image](https://user-images.githubusercontent.com/87100340/143046209-e27fb08f-3d32-4e28-99e7-aeb4e829e64e.png)
 
