@@ -5,7 +5,7 @@
   <a href="#projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalacao">Como Executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#links_apps">Alguns links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#links_apps">Links Úteis</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  
 </p>
 
@@ -77,7 +77,7 @@ DATABASES = {
   
 <hr>
 
-## <a id="links_apps"> 🔴 LINKS DE APLICAÇÕES QUE ESTÃO SENDO USADAS </a> 
+## <a id="links_apps"> 🔴 LINKS ÚTEIS </a> 
 
 *USANDO CDN - jquery.mask - A jQuery Plugin to make masks on form fields and html elements.<br>
 <br>
