@@ -3,21 +3,24 @@
 
 <p align="center">
   <a href="#projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#tecnologias">Tecnologias usadas no projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#instalacao">Como Executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   
+  <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#instalacao">Como Executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#links_apps">Alguns links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ 
 </p>
 
-## <a id="projeto"> 💻 Sobre este projeto </a>
+## <a id="projeto"> 💻 SOBRE ESTE PROJETO </a>
 
 > 🟩 Status do projeto: EM ANDAMENTO ... <br>
 > 🟥 <b>AINDA NÃO EXECUTÁVEL ...</b>
 
 
-Desenvolvimento progressivo do projeto de uma plataforma chamada E-diaristas ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, colocar todos os dados da aplicação. <br>
+Desenvolvimento progressivo do projeto de uma plataforma chamada E-diaristas que ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, listar e visualizar todos os dados da aplicação. 
+O projeto ainda está em fase de desenvolvimento, juntamente com a TreinaWeb.<br>
 
 <hr>
   
-  ## <a id="tecnologias"> 🧪 Tecnologias </a>
+  ## <a id="tecnologias"> 🧪 TECNOLOGIAS QUE SERÃO UTILIZADAS </a>
 
 Tecnologias que serão usadas neste projeto de E-diaristas:
 
@@ -35,11 +38,11 @@ Desenvolvimento da parte de Administração:
 
 <hr>
 
-## <a id="instalacao"> 🔴 Como executar a aplicação: </a> 
+## <a id="instalacao"> 🔴 PASSO A PASSO DE COMO EXECUTAR A APLICAÇÃO </a> 
 
 *No Windows:
 
-<b>-Baixe o repositório <br>
+<b>-Clone o repositório com o camando:</b> `git clone https://github.com/renatamoon/e-diaristas_Multistack_TreinaWeb.git` <br>
 <b>-Criando virtual environment:</b> `python -m venv venv`<br>
 <b>-Ativando o virtual environment: </b>`. venv\Scripts\Activate.ps1`<br>
 <b>Obs: Caso ocorra um erro na ativação:</b> entre no powershell e digite o seguinte comando: `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`<br>
@@ -69,10 +72,12 @@ DATABASES = {
 }
 ```
 
- -Migre o banco de dados com: `python manage.py migrate` <br>
- -Execute o servidor: `python manage.py runserver` <br>
+ *Migre o banco de dados com: `python manage.py migrate` <br>
+ *Execute o servidor: `python manage.py runserver` <br>
   
 <hr>
+
+## <a id="links_apps"> 🔴 LINKS DE APLICAÇÕES QUE ESTÃO SENDO USADAS </a> 
 
 *USANDO CDN - jquery.mask - A jQuery Plugin to make masks on form fields and html elements.<br>
 <br>
