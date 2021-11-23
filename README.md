@@ -48,7 +48,14 @@ Desenvolvimento da parte de Administração:
 <b>-Criando virtual environment:</b> virtualenv venv<br>
 <b>-Ativando o virtual environment:</b> . venv/bin/activate<br>
 <b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
+  
+*Alterar as configurações do DB no arquivo .. mdinclude:: ../../settings.py
+  
+  ![image](https://user-images.githubusercontent.com/87100340/143046209-e27fb08f-3d32-4e28-99e7-aeb4e829e64e.png)
 
+ -Migre o banco de dados com: python manage.py migrate <br>
+ -Execute o servidor: python manage.py runserver <br>
+  
 <hr>
 
 *USANDO CDN - jquery.mask - A jQuery Plugin to make masks on form fields and html elements.<br>
