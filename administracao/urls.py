@@ -13,7 +13,7 @@ urlpatterns = [
     path('autenticacao/login', auth_views.LoginView.as_view(), name='logar_usuario'),
 ]
 
-#quando fazer o login com a autenticacao do proprio django, podemos redirecionar para a página que queremos
+#quando fazer o login com a autenticacao padrão do django, podemos redirecionar para a página que queremos
 #apenas adicionando a seguinte configuração no settings.py:
 
 #LOGIN_REDIRECT_URL = 'listar_servico'
