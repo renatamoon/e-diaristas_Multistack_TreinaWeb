@@ -6,6 +6,7 @@
   <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalacao">Como Executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#links_apps">Links Úteis</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#imagens">Algumas Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  
 </p>
 
@@ -88,3 +89,6 @@ https://cdnjs.com/libraries/jquery.mask/1.11.2<br>
 https://adminlte.io/<br>
   
 <hr>
+
+## <a id="imagens"> 🔴 ALGUMAS IMAGENS: </a> 
+
