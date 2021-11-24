@@ -13,7 +13,7 @@
 ## <a id="projeto"> 💻 SOBRE ESTE PROJETO </a>
 
 > 🟩 Status do projeto: EM ANDAMENTO ... <br>
-> 🟥 <b>EXECUTÁVEL APENAS A PARTE DE ADMINISTRAÇÃO DO DJANGO ...</b>
+> 🟥 <b>EXECUTÁVEL APENAS A PARTE DE ADMINISTRAÇÃO DO DJANGO (ainda em construção) ...</b>
 
 
 Desenvolvimento progressivo do projeto de uma plataforma chamada E-diaristas que ajudará a encontrar o melhor profissional de limpeza com segurança e praticidade. No Painel Administrativo, podemos cadastrar, deletar, editar, listar e visualizar todos os dados da aplicação. 
@@ -23,13 +23,13 @@ O projeto ainda está em fase de desenvolvimento, juntamente com a TreinaWeb.<br
   
   ## <a id="tecnologias"> 🧪 TECNOLOGIAS QUE SERÃO UTILIZADAS </a>
 
-Tecnologias que serão usadas neste projeto de E-diaristas:
+-Desenvolvimento do Front-End:
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next-dot-js&logoColor=white)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-Desenvolvimento da parte de Administração:
+-Desenvolvimento da parte de Administração/Back-End:
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green)
