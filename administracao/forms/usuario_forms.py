@@ -1,10 +1,10 @@
 
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserChangeForm, UserCreationForm
 from django.contrib.auth import get_user_model
 
 
 #transformar os usuarios a partir do Usuarioform em superuser
-class UsuarioForm(UserCreationForm):
+class CadastroUsuarioForm(UserCreationForm):
     class Meta: #definir meta atributos
         model = get_user_model()
         fields = ['username', 'first_name', 'email', 'password1', 'password2']
@@ -17,3 +17,13 @@ class UsuarioForm(UserCreationForm):
         if commit:
             user.save()
         return user
+
+
+class EditarUsuarioForm(UserChangeForm):
+    #responsavel por edição de usuario
+    password = None #nao queremos alterar o password desse usuário, soment as outras informações
+
+    class Meta:
+         model = get_user_model()
+         fields = ['username', 'first_name', 'email'] #somente esses campos que vamos permitir editar
+

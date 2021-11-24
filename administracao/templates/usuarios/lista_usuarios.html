@@ -23,7 +23,7 @@ LISTA DE USUÁRIOS
                     <tr>
                         <td>{{usuario.username}}</td>                       
                         <td>
-                            <a href="#">Editar</a>
+                            <a href="{% url 'editar_usuário' usuario.id %}">Editar</a>
                             <a href="#">|</a>
                             <a href="#">Remover</a>
                         </td>
