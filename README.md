@@ -90,19 +90,19 @@ https://adminlte.io/<br>
   
 <hr>
 
-## <a id="imagens"> 🔴 ALGUMAS IMAGENS: </a> 
+## <a id="imagens"> 🔴 ALGUMAS IMAGENS DO PROJETO ATÉ AGORA: </a> 
 
--Visual da Página de Administração do AdminLTE com Django + Bootstrap:
-  -Conseguimos entrar nos links da Nav side bar e também links criados para a HOME do Admin que é a lista de cleaners.
+- Visual da Página de Administração do AdminLTE com Django + Bootstrap:<br>
+  -Conseguimos entrar nos links da Nav side bar e também links criados para a HOME do Admin que é a lista de cleaners.<br>
   -Funcionalidaes de Edição e Remoção de cleaners cadastradas ok;
   
   ![image](https://user-images.githubusercontent.com/87100340/143248789-506d6e42-0a78-4f0b-a1e7-8c1d2d8b8780.png)
 
--Página de Cadastro de Usuários ainda sem modelos de autenticação:
+- Página de Cadastro de Usuários ainda sem modelos de autenticação:
   
  ![image](https://user-images.githubusercontent.com/87100340/143249535-c0504540-0e00-42f2-bb57-cf69cd4f022d.png)
    
--Página de listagem de Usuários:
+- Página de listagem de Usuários:<br>
   -Funcionalidades criadas: cadastrar usuário com forms;
   
   ![image](https://user-images.githubusercontent.com/87100340/143249093-deccdebe-eea9-48f2-bc3c-35bbea494426.png)

@@ -5,7 +5,13 @@
 <!-- aqui estamos renderizando o formulário de cadastro de usuário atraves das views de usuario_forms-->
 <div class="card card-primary">
     <div class="card-header">
-        <div class="card-title"><b>CADASTRO DE USUÁRIOS</b></div>        
+        <div class="card-title"><b>
+            {% if request.resolver_match.url_name == 'cadastrar_usuario' %} 
+                CADASTRO DE USUÁRIO         
+            {% else %}
+                EDIÇÃO DE USUÁRIO
+            {% endif %} </b>
+        </div>
     </div>       
     <div class="card-body">
         <form method="POST">

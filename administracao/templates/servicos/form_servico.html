@@ -8,7 +8,13 @@ CADASTRO DE SERVIÇOS
 {% block content %}                
 <div class="card card-primary"> 
     <div class="card-header">
-        <div class="card-title"><b>CADASTRO DE SERVIÇOS</b></div>        
+        <div class="card-title"><b>
+            {% if request.resolver_match.url_name == 'cadastrar_servico' %} 
+                CADASTRO DE SERVIÇOS         
+            {% else %}
+                EDIÇÃO DE SERVIÇOS
+            {% endif %} </b>
+        </div>
     </div>
     <div class="card-body">
         <form method="POST">

@@ -14,16 +14,17 @@ LISTA DE USUÁRIOS
         <table class="table table-condensed">
             <thead>
                 <tr>
-                    <th><b>USERNAME </b></td>  
+                    <th><b>USERNAME </b></td>                    
                     <th><b>AÇÕES </b></td>                      
                 </tr>
             </thead>
             <tbody>
                 {% for usuario in usuarios %}
                     <tr>
-                        <td>{{usuario.username}}</td>                       
+                        <td>{{usuario.username}}</td>
+                                       
                         <td>
-                            <a href="{% url 'editar_usuário' usuario.id %}">Editar</a>
+                            <a href="{% url 'editar_usuario' usuario.id %}">Editar</a>
                             <a href="#">|</a>
                             <a href="#">Remover</a>
                         </td>
