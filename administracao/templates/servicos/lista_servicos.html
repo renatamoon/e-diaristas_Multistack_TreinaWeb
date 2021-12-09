@@ -4,15 +4,12 @@ LISTA DE SERVIÇOS
 {% endblock title %}
 {% block content %}
 
-<div class="card-header">
-    <div class="card-title"><b>LISTA DE SERVIÇOS CADASTRADOS</b></div>        
-</div>
-<br>
-<br>
-
-<div class="card">
-    
-    <div class="card-body p-0">
+<div class="card card-primary"> 
+    <div class="card-header">
+        <div class="card-title"><b>
+            LISTA DE SERVIÇOS CADASTRADOS</b>
+        </div>
+    </div>
         <table class="table table-condensed">
             <thead>
                 <tr>
@@ -36,7 +33,7 @@ LISTA DE SERVIÇOS
             </tbody>
         </table>
     </div>
+    <a href="{% url 'cadastrar_servico' %}" class="btn btn-primary">CADASTRAR</a>
 </div>
-<a href="{%url 'cadastrar_servico' %}" class="btn btn-info">CADASTRAR</a><br>
-<br>
+
 {% endblock content %}

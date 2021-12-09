@@ -21,7 +21,7 @@ class ServicoForm(forms.ModelForm):
         def clean_valor_minimo(self):
             data = self.cleaned_data['valor_minimo']
             return Decimal(data.replace(',','.'))
-            #aqu estamos convertendo o valor minimo do jeito q ele está configurado e 
+            #aqui estamos convertendo o valor minimo do jeito q ele está configurado e 
             #substituindo o , pelo .
         def clean_porcentagem_comissao(self):
             data = self.cleaned_data['porcentagem_comissao']

@@ -9,7 +9,6 @@
          {% block title %}
          
          {% endblock title %}
-
     </title>
 </head>
 <body>
@@ -35,9 +34,8 @@ formatar apenas as masks como money e conforme 000,00 como foi estipulado no mod
 <script>
     
     $(document).ready(function() {
-        $('.money'),mask('000,00', {reverse: true});
+        $('.money').mask('000,00', {reverse: true});
     })
-
 </script>
 {% endblock javascript%}
 

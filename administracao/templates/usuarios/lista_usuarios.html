@@ -4,12 +4,12 @@ LISTA DE USUÁRIOS
 {% endblock title %}
 {% block content %}
 
-<div class="card">
+<div class="card card-primary">
     <div class="card-header">
-        <h2 class="card-title"><b>LISTA DE USUÁRIOS</b></h2>        
-    </div>
-    <br>
-<br>    
+        <div class="card-title"><b>
+            LISTA DE SERVIÇOS CADASTRADOS</b>
+        </div>
+    </div> 
     <div class="card-body p-0">
         <table class="table table-condensed">
             <thead>
@@ -37,11 +37,7 @@ LISTA DE USUÁRIOS
 
 <br>
 
-<a href="{%url 'cadastrar_usuario' %}" class="btn btn-warning"><b>CADASTRAR</b></a><br>
+<a href="{%url 'cadastrar_usuario' %}" class="btn btn-primary"><b>CADASTRAR</b></a><br>
 <br>
-<h6 class="card-title" style="color:red"><i>* Clique em CADASTRAR para cadastrar mais usuários na base de dados.</i></h6><br> 
-<br>    
-
-
 
 {% endblock content %}

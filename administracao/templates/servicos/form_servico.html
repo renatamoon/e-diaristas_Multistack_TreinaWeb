@@ -1,4 +1,3 @@
-
 {% extends 'base.html' %}
 {% load bootstrap4 %}
 {% block title %}
@@ -22,7 +21,7 @@ CADASTRO DE SERVIÇOS
             {% csrf_token %}
             {% bootstrap_form form_servico %}
             <br>
-            <button class="btn btn-info" type="submit">SALVAR</button>
+            <button class="btn btn-primary" type="submit">SALVAR</button>
         </form> 
     </div>
 </div>   
